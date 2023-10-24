@@ -1,0 +1,37 @@
+version: '3'
+services:
+  library_db:
+    image: postgres:14.5
+    container_name: library_db
+    environment:
+      POSTGRES_DB: KOLPAKOV_215
+      POSTGRES_USER: KOLPAKOV_215
+      POSTGRES_PASSWORD: KOLPAKOV_215
+    volumes:
+      - ./docker/db/scripts/library:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
+
+  station_db:
+    image: postgres:14.5
+    container_name: station_db
+    environment:
+      POSTGRES_DB: KOLPAKOV_215
+      POSTGRES_USER: KOLPAKOV_215
+      POSTGRES_PASSWORD: KOLPAKOV_215
+    volumes:
+      - ./docker/db/scripts/station:/docker-entrypoint-initdb.d
+    ports:
+      - "5433:5432"
+
+  station_personells_db:
+    image: postgres:14.5
+    container_name: station_personells_db
+    environment:
+      POSTGRES_DB: KOLPAKOV_215
+      POSTGRES_USER: KOLPAKOV_215
+      POSTGRES_PASSWORD: KOLPAKOV_215
+    volumes:
+      - ./docker/db/scripts/station_personells:/docker-entrypoint-initdb.d
+    ports:
+      - "5434:5432"
