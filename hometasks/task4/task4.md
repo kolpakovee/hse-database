@@ -168,4 +168,7 @@ Ref: bed.room_nr > room.room_nr
 ## Задача 3
 Файл [docker-compose.yml](https://github.com/kolpakovee/hse-database/blob/main/hometasks/task4/docker-compose.yml)
 ## Скриншоты баз данных:
-
+![1](https://github.com/kolpakovee/hse-database/blob/main/images/db_4_1.png)
+![2](https://github.com/kolpakovee/hse-database/blob/main/images/db_4_2.png)
+![3](https://github.com/kolpakovee/hse-database/blob/main/images/db_4_3.png)
+![4](https://github.com/kolpakovee/hse-database/blob/main/images/db_4_4.png)
