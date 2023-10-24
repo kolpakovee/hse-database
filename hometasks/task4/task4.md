@@ -11,6 +11,7 @@
 
 ## Задача 1
 **Физические модели:**
+
 Бибилиотека
 ```
 Table reader {
@@ -163,8 +164,8 @@ Ref: room.stan_nr > station.stan_nr
 Ref: bed.room_nr > room.room_nr
 ```
 ## Задача 2
-Все скрипты находятся в папке /task4/docker/db/scripts
+Все скрипты находятся в папке [/task4/docker/db/scripts](https://github.com/kolpakovee/hse-database/blob/main/hometasks/task4/docker/db/scripts)
 ## Задача 3
-Файл docker-compose.yml лежит в папке /task4
+Файл [docker-compose.yml](https://github.com/kolpakovee/hse-database/blob/main/hometasks/task4/docker-compose.yml)
 ## Скриншоты баз данных:
 
